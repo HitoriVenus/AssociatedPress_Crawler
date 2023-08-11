@@ -1,0 +1,142 @@
+{
+    "csv_path": "./News.csv",
+    "categories": [
+        {
+            "catName": "\u062c\u0627\u0645\u0639\u0647",
+            "catNum": 3,
+            "year": 1381,
+            "month": "07",
+            "day": 29
+        },
+        {
+            "catName": "\u0627\u0642\u062a\u0635\u0627\u062f",
+            "catNum": 2,
+            "year": 1383,
+            "month": 11,
+            "day": 12
+        },
+        {
+            "catName": "\u0628\u06cc\u0646 \u0627\u0644\u0645\u0644\u0644",
+            "catNum": 6,
+            "year": 1381,
+            "month": "08",
+            "day": 12
+        },
+        {
+            "catName": "\u062f\u0641\u0627\u062a\u0631 \u0645\u0646\u0637\u0642\u0647 \u0627\u06cc",
+            "catNum": 447,
+            "year": 1390,
+            "month": "08",
+            "day": 14
+        },
+        {
+            "catName": "\u0633\u06cc\u0627\u0633\u06cc",
+            "catNum": 1,
+            "year": 1381,
+            "month": 11,
+            "day": 12
+        },
+        {
+            "catName": "\u0633\u06cc\u0627\u0633\u062a \u062e\u0627\u0631\u062c\u06cc",
+            "catNum": 10,
+            "year": 1390,
+            "month": "05",
+            "day": 29
+        },
+        {
+            "catName": "\u0639\u0644\u0645 \u0648 \u067e\u06cc\u0634\u0631\u0641\u062a",
+            "catNum": 211,
+            "year": 1390,
+            "month": "06",
+            "day": 10
+        },
+        {
+            "catName": "\u0641\u0631\u0647\u0646\u06af",
+            "catNum": 7,
+            "year": 1381,
+            "month": "08",
+            "day": 1
+        },
+        {
+            "catName": "\u06cc\u0627\u062f\u062f\u0627\u0634\u062a",
+            "catNum": 9,
+            "year": 1382,
+            "month": 12,
+            "day": 29
+        },
+        {
+            "catName": "\u0641\u0627\u0631\u0633 \u067e\u0644\u0627\u0633",
+            "catNum": 15,
+            "year": 1383,
+            "month": 12,
+            "day": 8
+        },
+        {
+            "catName": "\u0627\u0633\u062a\u0627\u0646\u0647\u0627",
+            "catNum": 12,
+            "year": 1390,
+            "month": "04",
+            "day": 2
+        }
+    ],
+    "csv_headers": [
+        "Title",
+        "Description",
+        "Date",
+        "URL",
+        "Author",
+        "Tags",
+        "Category",
+        "Translate"
+    ],
+    "proxies": [
+        {
+            "http_proxy": [
+                "http://localhost:3026",
+                "http://localhost:3027",
+                "http://localhost:3028",
+                "http://localhost:3029",
+                "http://localhost:3030",
+                "http://localhost:3031",
+                "http://localhost:3032",
+                "http://localhost:3033",
+                "http://localhost:3034",
+                "http://localhost:3035",
+                "http://localhost:8150",
+                "http://localhost:8151",
+                "http://localhost:8152",
+                "http://localhost:8153",
+                "http://localhost:8154"
+            ],
+            "https_proxy": [
+                "http://localhost:3026",
+                "http://localhost:3027",
+                "http://localhost:3028",
+                "http://localhost:3029",
+                "http://localhost:3030",
+                "http://localhost:3031",
+                "http://localhost:3032",
+                "http://localhost:3033",
+                "http://localhost:3034",
+                "http://localhost:3035",
+                "http://localhost:8150",
+                "http://localhost:8151",
+                "http://localhost:8152",
+                "http://localhost:8153",
+                "http://localhost:8154"
+            ]
+        }
+    ],
+    "main_url": "https://www.farsnews.ir/archive?cat={cat}&subcat=-1&date={year}%2F{month}%2F{day}",
+    "page_per_mainurl": "&p={i}",
+    "file_setting": {
+        "file_counter": 22,
+        "file_name": "allLink",
+        "file_type": ".csv"
+    },
+    "news_csv_setting": {
+        "file_counter": -1,
+        "file_name": "news",
+        "file_type": ".csv"
+    }
+}
