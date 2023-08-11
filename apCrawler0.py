@@ -3,7 +3,7 @@
 """
 Created on Tue Aug  1 09:40:33 2023
 
-@author: jack
+@author: Yekta
 """
 
 import requests
