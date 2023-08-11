@@ -1,5 +1,6 @@
 # AssociatedPress_Crawler
 A crawler for get News data from Associated Press News (APNews).
+It is a basic code. Will Upgrade...
 
 This crawler can get News Archive from Asociated press but cannot get Daily News for now. It will be add later.
 This news agency does not have an official archive. And the only archive belongs to the WayBack Machine.
